@@ -1,0 +1,113 @@
+.contact {
+    background-color: #EBD9FF;
+    width: 75vw;
+    padding: 0 100px;
+    font-size: 16px;
+    overflow-y: hidden;
+    position: relative;
+    left: 4%;
+}
+
+.contact h2 {
+    text-align: center;
+    background-color: inherit;
+}
+
+.name,
+.name label,
+.name input,
+.email,
+.email label,
+.email input,
+.message,
+.message label,
+.message textarea,
+.button {
+    background-color: #EBD9FF;
+}
+
+.name,
+.email,
+.message {
+    padding: 10px;
+}
+
+input,
+textarea {
+    border: 1px solid grey;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.name input,
+.email input {
+    margin-left: 25px;
+    width: 200px;
+}
+
+.message label {
+    vertical-align: top;
+}
+
+.message textarea {
+    width: 50vw;
+    min-height: 300px;
+    height: auto;
+    margin-left: 5px;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.button input {
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    box-shadow: 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.button input:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact {
+        top: 10px;
+        left: -2%;
+        width: 100vw;
+        padding: 0 10px;
+        margin-bottom: -50px;
+    }
+
+    .message textarea {
+        width: 60vw;
+        min-height: 200px;
+        height: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
