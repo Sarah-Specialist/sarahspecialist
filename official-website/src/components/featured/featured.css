@@ -1,0 +1,63 @@
+.featured {
+    width: 80vw;
+    text-align: center;
+    background-image: url(https://media.istockphoto.com/vectors/abstract-black-stripes-diagonal-background-vector-id1294603953?k=20&m=1294603953&s=612x612&w=0&h=KLAV73oMUFA2ucWMMTOdXT8Vn4LVUsh6NTiXRmlX5ZA=);
+    color: white;
+    margin: 10px 0;
+    padding: 10px 0;
+    position: relative;
+    left: 10%;
+    overflow-y: hidden;
+}
+
+.featured h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.featured img {
+    border: 1px solid white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .featured {
+        position: relative;
+        top: 15px;
+        width: 101vw;
+        left: -5px;
+    }
+
+    .featured img {
+        width: 80vw;
+        height: 170px;
+    }
+
+    .featured p {
+        font-size: 14px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .featured {
+        width: 120vw;
+        left: -10%;
+        top: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
