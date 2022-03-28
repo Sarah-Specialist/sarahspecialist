@@ -12,6 +12,10 @@
     margin-top: 50px;
 }
 
+.paragraph {
+    margin-top: -20px;
+}
+
 .title,
 .paragraph {
     background-color: inherit;
